@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.12/summernote-bs4.js"></script>
+    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<!-- HTML5 -->
 	<meta charset="utf-8"/>
@@ -36,7 +37,7 @@
             </ol> 
         </nav>
         <div>
-           
+           <th:block th:include="mensagemValidacao"></th:block>
             <form method="post">
                 <div class="form-group">
                     <input type="text" class="form-control" name="titulo" placeholder="Título *">
